@@ -1,0 +1,9 @@
+{
+  "Id": "FixAlphaLevel",
+  "DisplayName": "FixAlphaLevel",
+  "Author": "HYONSU",
+  "Version": "0.0.1",
+  "AssemblyName": "FixAlphaLevel.dll",
+  "EntryMethod": "FixAlphaLevel.Main.Load",
+  "Repository": ""
+}
