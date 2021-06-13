@@ -11,6 +11,8 @@ namespace FixAlphaLevel.MainPatch {
 
     internal static class Test {
         private static bool Prefix(ref string __result, string path, Encoding encoding = null) {
+            if (!path.EndsWith(".adofai")) return true;
+            
             if (encoding == null)
                 encoding = RDFile.NonSwitchDefaultEncoding;
             var level = File.ReadAllText(path, encoding);
